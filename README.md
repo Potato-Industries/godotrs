@@ -57,4 +57,4 @@ user@host:~/newgame$ godot -s sayhello.gd
 <img width="1401" alt="Screenshot 2019-12-17 at 09 13 29" src="https://user-images.githubusercontent.com/56988989/70982133-5d4dce80-20ae-11ea-84ca-e7b76b4847c7.png">
 
 **Limitations**
-- gfx support required
+- OpenGL 2.1 / OpenGL ES 2.0 compatible hardware to execute
