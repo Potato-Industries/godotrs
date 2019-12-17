@@ -6,7 +6,7 @@ https://godotengine.org/download/
 
 https://docs.godotengine.org/en/3.1/getting_started/scripting/index.html
 
-Godot supports:
+**Supports**
 - GDScript (godot)
 - VBScript
 - C# (+Mono)
@@ -40,6 +40,16 @@ drwxr-xr-x   4 WOPR  staff   128B Dec 17 06:59 .import
 -rw-r--r--@  1 WOPR  staff   7.4K Dec 17 06:59 icon.png
 -rw-r--r--   1 WOPR  staff   640B Dec 17 06:59 icon.png.import
 -rw-r--r--@  1 WOPR  staff   736B Dec 17 09:15 project.godot
+```
+
+**CLI**
+
+It's possible to execute GDScripts directly from a Godot installation if it's available on the system. 
+
+https://docs.godotengine.org/en/3.1/getting_started/editor/command_line_tutorial.html
+
+```
+user@host:~/newgame$ godot -s sayhello.gd
 ```
 
 **AV**
