@@ -8,7 +8,6 @@ https://docs.godotengine.org/en/3.1/getting_started/scripting/index.html
 
 **Supports**
 - GDScript (godot)
-- VBScript
 - C# (+Mono)
 
 **Usage**
