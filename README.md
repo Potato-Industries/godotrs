@@ -1,10 +1,19 @@
 # godotrs
 
-portable godot based reverse shell
+portable godot (GDScript) based reverse shell
 
 https://godotengine.org/download/
 
+https://docs.godotengine.org/en/3.1/getting_started/scripting/index.html
+
+Godot supports:
+- GDScript (godot)
+- VBScript
+- C# (+Mono)
+
 **Usage**
+
+Create project, add script to main scene or trigger scene. 
 
 deploy & run:
 - godotrs.exe
